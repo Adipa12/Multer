@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "age": 30,
+        "salary": 50000,
+        "address": {
+            "street": "123 Main St",
+            "city": "Anytown",
+            "state": "CA",
+            "zip": "12345"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 25,
+        "salary": 60000,
+        "address": {
+            "street": "456 Oak St",
+            "city": "Othertown",
+            "state": "TX",
+            "zip": "67890"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Emily Johnson",
+        "age": 35,
+        "salary": 70000,
+        "address": {
+            "street": "789 Pine St",
+            "city": "Sometown",
+            "state": "NY",
+            "zip": "10112"
+        }
+    }
+]

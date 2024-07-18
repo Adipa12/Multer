@@ -1,0 +1,50 @@
+1>  What is a NoSQL Database, and explain the types of NoSQL database?
+sol.> A NoSQL database is a non-relational database that stores data in various formats, not just tables
+	it is basically 4 types
+	Document Stores,Key-Value Stores,Column-Family Stores,Graph Databases
+	
+2> 	What is the difference between SQL and NoSQL databases?
+sol.> 			SQL:							NoSQL:
+		Tables with rows and columns		Flexible formats (documents, key-value pairs, etc.)
+		Fixed structure						Flexible structure
+		Adds power to existing servers		Adds more servers
+		Strong consistency					Often relaxed consistency
+		ex: MySQL, PostgreSQ				ex: MongoDB, Redis
+		
+3>	How to choose between MongoDB and MySQL based on your requirements?
+sol.> 	MongoDB: For unstructured data (JSON).
+		MySQL: For structured data (tables).
+		
+4>  What are collections and documents in a MongoDB database?
+sol.>  A group of MongoDB documents Similar to a table in a relational database
+	   A single record in a collection,Stored in JSON-like format (BSON)
+
+5>	What is BSON? What is the difference between BSON and JSON?
+sol.> BSON (Binary JSON) is a binary-encoded serialization format used to store documents and make remote procedure calls in MongoDB.
+	BSON is in Binary format and JSON is Text format
+
+6>	What are MongoDB Compass and MongoDB Shell used for?
+sol.> MongoDB Compass is GUI tool for MongoDB and it used for Visualize data, run queries, manage indexes, perform CRUD operations.
+	  MongoDB Shell is Command-line tool for MongoDB and used to Run commands and queries, automate tasks, perform CRUD operations.
+7>	How to create collections in MongoDB?
+sol.> db.collectionName.insertOne({ key: value });
+
+8>  What is the difference between insertMany and insertOne?
+sol.> inserOne is Inserts a single document into a collection and inseryMany Inserts multiple documents into a collection.
+
+9>	What is the difference between deleteOne and deleteMany?
+sol.> deleteOne is Deletes a single document that matches the specified filter and deleteMany is Deletes all documents that match the specified filter
+
+10>	How to read data in MongoDB? What is the difference between find and findOne?
+sol.> To read data in MongoDB, you primarily use the find and findOne methods
+	 find. Retrieves multiple documents from a collection that match the specified query criteria
+	 findOne. Retrieves a single document from a collection that matches the specified query criteria.
+	 
+11>	What is $set in MongoDB?
+sol.> 
+In MongoDB, $set is an update operator used within update operations to modify specific fields or add new fields to existing documents in a collection.
+
+12>	How to filter data using MongoDB?
+sol.> ex. db.collection.find({ age: { $gt: 25 } });
+
+	  
